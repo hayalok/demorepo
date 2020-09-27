@@ -9,6 +9,8 @@ var book = require('./routes/book');
 
 var app = express();
 
+// hi there these are the changes
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
